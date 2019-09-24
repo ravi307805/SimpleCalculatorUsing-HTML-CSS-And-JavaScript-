@@ -1,0 +1,111 @@
+html {
+	background-image: url("https://i1.wp.com/jszapp.com/wp-content/uploads/2016/06/AHK-Math.png?");
+	margin: 100px;
+	
+}
+ 
+.container {
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	margin-top: 20px;
+	height: 60%;
+	transform: translate(50%, -50%);
+	background: #040404;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+	border-radius: 50px;
+	padding-bottom: 10px;
+	width: 280px;
+	
+}
+.display {
+	width: 65.8%;
+	height: 50px;
+	margin-top: 0px;
+	padding: 48px ;
+	padding-bottom: 20%;
+	padding-top: 0%;
+	background: #FF0509;
+	border-top-left-radius: 22%;
+	border-top-right-radius: 22%;
+	animation: mymove 5s infinite;
+}
+@keyframes mymove rightfrom {background-color:#FF0509;}
+  to {background-color: #39311f;}
+}
+.buttons {
+	padding: 20px 30px  20px 20px;
+}
+.row {
+	width: 280px;
+	float: left;
+}
+input[type=button] {
+	width: 60px;
+	height: 60px;
+	float:right;
+	padding: 0;
+	margin: 5px;
+	
+	background: #104b50;
+	border: none;
+	font-size: 30px;
+	line-height: 30px;
+	
+	font-weight: 700;
+	color: #5E5858;
+	cursor: pointer;
+	
+}
+input[type=text] {
+	width: 250px;
+	height: 60px;
+	float: right;
+	padding: 0;
+	box-sizing: border-box;
+	border: 20px;
+	background: none;
+	color: #ffffff;
+	text-align: right;
+	font-weight: 700;
+	font-size: 60px;
+	margin: 10px  1px;
+	
+}
+.red {
+	background: #FF0509 !important;
+	color: #ffffff !important;
+	border-bottom-left-radius: 30px;
+
+	
+}
+.blue{
+	border-bottom-right-radius: 30px;
+}
+.lightblue{
+	background-color: #FF0509 !important;
+}
+.heading{
+	background: #d1f884;
+  position:fixed;
+  top: -21px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 20px ;
+  height: 50px;
+    color:  #5E5858;
+    	text-align: center;
+
+}
+.h2{
+	background-color: #def9d3;
+	padding-left:900px;
+	text-align: right;
+	position: fixed;
+	font: icon;
+	font-size: 30px
+	
+    
+
+}
